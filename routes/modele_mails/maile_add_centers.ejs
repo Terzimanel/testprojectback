@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Découvrez notre tout nouveau centre de loisirs !</title>
+  <style>
+    /* Styles spécifiques à l'e-mail */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://promofarma.flydev.fr/img/tunivita.png" alt="Logo de Tunivita" class="logo">
+    <h1>Nouveau centre de loisirs excitant maintenant ouvert !</h1>
+    <p>Cher(e) <%= username %>,</p>
+    <p>Nous sommes ravis de vous annoncer l'ouverture de notre tout nouveau centre de loisirs ! Chez <%= centrename %>, nous sommes déterminés à offrir à nos clients une expérience de divertissement exceptionnelle, et ce nouveau centre ne fait pas exception.</p>
+    <p>Notre nouveau centre de loisirs est équipé des installations les plus modernes et propose une gamme d'activités passionnantes pour tous les âges. Que vous soyez un enfant, un adolescent ou un adulte, vous trouverez quelque chose qui vous convient parfaitement.</p>
+    <p>Si vous avez des questions ou si vous souhaitez obtenir de plus amples informations, n'hésitez pas à nous contacter. Notre équipe se fera un plaisir de vous aider.</p>
+    <p>Merci encore pour votre fidélité et votre soutien continu. Nous avons hâte de vous voir au nouveau centre de loisirs !</p>
+    <p>Cordialement,<br>
+    Service client.<br>
+    TUNIVITA<br>
+    tunivita@tunivita.tn<br>
+    tunivita.tn</p>
+    <p><a href="<%= centreurl %>" class="btn">Désinscription</a></p>
+  </div>
+</body>
+</html>

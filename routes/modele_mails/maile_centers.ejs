@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subject</title>
+  <style>
+    /* Styles spécifiques à l'e-mail */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://promofarma.flydev.fr/img/tunivita.png" alt="Logo de Tunivita" class="logo">
+    <h1><%= subject %></h1>
+    <p><%= messager %></p>
+    Service client.<br>
+    TUNIVITA<br>
+    tunivita@tunivita.tn<br>
+    tunivita.tn</p>
+    <p><a href="<%= centreurl %>" class="btn">Désinscription</a></p>
+  </div>
+</body>
+</html>

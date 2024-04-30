@@ -1,0 +1,11 @@
+# Ignore build artifacts
+public/uplods/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore configuration files
+package-lock.json
+
+# Ignore log files
+*.log
